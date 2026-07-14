@@ -90,3 +90,8 @@ if question:
 #2) Streamlit Cloud 접속 및 (GitHub계정)로그인
 #3) [New app]버튼을 클릭 후 GitHub 저장소를 선택
 #4) 그러면 자동으로 배포됨(도메일 일부 수정 가능)
+
+# 외부모듈을 사용했다면 에러발생. streamlit cloud에는 module이 설치되어 있지 않기에..
+# 직접 설치는 안되고.. 특정 이름의 문서를 주면 이를 기반으로 자동 설치됨
+# 파이썬의 모듈목록을 저장해놓은 문서 requirements.txt 를 만들고 안에 설치할 모듈목록 등록
+# github에 push...
